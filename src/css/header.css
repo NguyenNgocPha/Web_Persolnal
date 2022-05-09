@@ -1,0 +1,60 @@
+.ContainerHeader {
+  width: "100%";
+  height: 50px;
+  background-color: blueviolet;
+}
+
+.content{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: white;
+  width: '95%';
+ 
+  }
+.TheA{
+    color: white;
+    text-decoration: none;
+    white-space: normal;
+    
+    
+}
+.TheAB{
+  color: white;
+    text-decoration: none;
+    
+    background-color: #EDCEED;
+}
+.col4{
+  width: "34%";
+  float: left;
+}
+.col2{
+  width: "16%";
+  float: left;
+}
+.nhanqc{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 90px;
+  height: 35px;
+  padding-top: 5;
+   background-color: blueviolet;
+  color:white;
+  text-align: center;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: azure;
+}
+.image{
+  position: absolute;
+  top: 150px;
+  right: 50px;
+}
+.textBig{
+font-size: 61px;
+
+}
+    
