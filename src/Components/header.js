@@ -118,7 +118,7 @@ export default (props) => {
                 </div>
               </div>
 
-              <div class="col-5">
+              <div class="col-5" style={{ textAlign: "justify" }}>
                 <div
                   class="p-2 border"
                   style={{ borderRadius: 200, color: "white" }}
@@ -149,6 +149,7 @@ export default (props) => {
                         borderTopLeftRadius: 200,
                         borderBottomLeftRadius: 200,
                         paddingLeft: 7,
+                        height: 25,
                         width: "100%",
                       }}
                     >
@@ -167,7 +168,7 @@ export default (props) => {
                       style={{
                         borderTopRightRadius: 200,
                         borderBottomRightRadius: 200,
-                        paddingLeft: 7,
+                        paddingLeft: 10,
                         width: "100%",
                       }}
                     >
@@ -347,7 +348,9 @@ export default (props) => {
                         </DropdownMenu>
                       </UncontrolledDropdown>
 
-                      <NavItem style={{ color: "white", marginLeft: 50 }}>
+                      <NavItem
+                        style={{ color: "white", marginLeft: 40, width: 150 }}
+                      >
                         <NavLink href="/components/" style={{ color: "white" }}>
                           NFT Access Keys
                         </NavLink>
@@ -356,7 +359,7 @@ export default (props) => {
                       <UncontrolledDropdown
                         inNavbar
                         nav
-                        style={{ color: "white", marginLeft: 50 }}
+                        style={{ color: "white", marginLeft: 40 }}
                       >
                         <DropdownToggle caret nav style={{ color: "white" }}>
                           Tools
@@ -483,7 +486,7 @@ export default (props) => {
                       <UncontrolledDropdown
                         inNavbar
                         nav
-                        style={{ color: "white", marginLeft: 50 }}
+                        style={{ color: "white", marginLeft: 40 }}
                       >
                         <DropdownToggle caret nav style={{ color: "white" }}>
                           More
@@ -777,7 +780,7 @@ export default (props) => {
                   src="https://thiepnhanai.com/wp-content/uploads/2021/05/hinh-anh-hoa-huong-duong-1.jpg"
                   top
                   width="100%"
-                  height={300}
+                  height={250}
                   style={{ borderRadius: 15 }}
                 />
                 <CardBody>
@@ -849,7 +852,7 @@ export default (props) => {
                   src="https://picsum.photos/318/180"
                   top
                   width="100%"
-                  height={300}
+                  height={250}
                   style={{ borderRadius: 15 }}
                 />
                 <CardBody>
@@ -921,7 +924,7 @@ export default (props) => {
                   src="https://thiepnhanai.com/wp-content/uploads/2021/05/hinh-anh-hoa-huong-duong-1.jpg"
                   top
                   width="100%"
-                  height={300}
+                  height={250}
                   style={{ borderRadius: 15 }}
                 />
                 <CardBody>
